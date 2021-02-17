@@ -8,7 +8,7 @@
 </head>
 <body>
 	<p>${userTemps.getTemperature()} Starting Temperature <br /> 
-	${userTemps.getFarenheit()} Fahrenheit <br />
+	${userTemps.toFarenheit(userTemps.getTemperature())} Fahrenheit <br />
 	</p>
 	<a href="index.jsp">Enter another Temperature</a>
 </body>
