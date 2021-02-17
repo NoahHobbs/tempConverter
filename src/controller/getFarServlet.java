@@ -33,7 +33,7 @@ public class getFarServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		String userTemp = request.getParameter("userTemp");
 		TempConverter userFaren = new TempConverter(Double.parseDouble(userTemp));
-		request.setAttribute("userTemps", userTemp);
+		request.setAttribute("userTemps", userFaren);
 		getServletContext().getRequestDispatcher("/farenResult.jsp").forward(request, response);
 		PrintWriter writer = response.getWriter();
 		writer.println(userFaren.farenToString());

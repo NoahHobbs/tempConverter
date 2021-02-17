@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Farenheit Results</title>
+<title>Fahrenheit Results</title>
 </head>
 <body>
-	<p>${userTemps.getTemperature()} Starting Temperature <br />
-	${userTemps.getFarenheit()} Farenheit <br />
+	<p>${userTemps.getTemperature()} Starting Temperature <br /> 
+	${userTemps.getFarenheit()} Fahrenheit <br />
 	</p>
 	<a href="index.jsp">Enter another Temperature</a>
 </body>
