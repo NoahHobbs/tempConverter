@@ -31,6 +31,7 @@ public class getCelsServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		// code belows processes the post request and writes the method celsToString from TempConverter.java
 		String userTemp = request.getParameter("userTemp");
 		TempConverter userCels = new TempConverter(Double.parseDouble(userTemp));
 		request.setAttribute("userTemps", userCels);
