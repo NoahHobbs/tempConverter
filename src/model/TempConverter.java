@@ -24,9 +24,9 @@ public class TempConverter {
 		return celsius;
 	}
 	public double toCelsius(double temp) {
-		double cels = (temp - 32) * 1.8;
+		double cels = (temp - 32) / 1.8;
 		this.celsius = cels;
-		return cels;
+		return Math.round(cels);
 	}
 	public double getFarenheit() {
 		return farenheit;
@@ -34,7 +34,7 @@ public class TempConverter {
 	public double toFarenheit(double temp) {
 		double faren = temp * 1.8 + 32;
 		this.farenheit = faren;
-		return faren;
+		return Math.round(faren);
 	}
 	
 	public String farenToString() {
