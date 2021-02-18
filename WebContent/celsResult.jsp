@@ -10,6 +10,8 @@
 	<p>${userTemps.getTemperature()} Starting Temperature <br /> 
 	${userTemps.toCelsius(userTemps.getTemperature())} Celsius <br />
 	</p>
-	<a href="index.jsp">Enter another Temperature</a>
+	<p><a href="celsiusClicked.jsp">Convert another Celsius temperature</a></p>
+	
+	<p><a href="index.jsp">Enter another Temperature</a></p>
 </body>
 </html>

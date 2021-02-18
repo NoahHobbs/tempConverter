@@ -10,6 +10,8 @@
 	<p>${userTemps.getTemperature()} Starting Temperature <br /> 
 	${userTemps.toFarenheit(userTemps.getTemperature())} Fahrenheit <br />
 	</p>
-	<a href="index.jsp">Enter another Temperature</a>
+	<p><a href="fahrenClicked.jsp">Convert another Fahrenheit temperature</a></p>
+	
+	<p><a href="index.jsp">Enter another Temperature</a></p>
 </body>
 </html>

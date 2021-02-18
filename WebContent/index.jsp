@@ -8,16 +8,9 @@
 </head>
 <body>
 	<h1>Welcome to a temperature converter</h1>
-	<form action="getFarServlet" method="post">
-		Enter the Celsius temperature you want converted:
-		<input type="text" name="userTemp" size="10">
-		<input type="submit" name="toFaren" value="Change to Farenheit" />
-	</form>
-	<form action="getCelsServlet" method="post">
-		Enter the Fahrenheit temperature you want converted:
-		<input type="text" name="userTemp" size="10">
-		<input type="submit" name="toCels" value="Change to Celsius" />
-	</form>
 	
+	<p><a href="fahrenClicked.jsp">Convert Celsius to Fahrenheit</a></p>
+	
+	<p><a href="celsiusClicked.jsp">Convert Fahrenheit to Celsius</a></p>
 </body>
 </html>
